@@ -2,12 +2,14 @@ import React from "react";
 
 
 /* 项目的导航 */
-const Category = ()=>{
+const Goods = ()=>{
     return (
-        <div id="category">
+        <div id="goods">
             <h1>商品管理</h1>
         </div>
     )
 }
 
-export default Category;
+export default Goods;
+
+

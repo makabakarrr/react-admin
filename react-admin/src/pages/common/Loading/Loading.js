@@ -1,11 +1,29 @@
 import React from "react";
-
+import './style.scss'
 
 /* 项目的导航 */
-const Loading = ()=>{
+const Loading = () => {
     return (
         <div id="loading">
-            <h1>加载页面</h1>
+            <div className="loader">
+                <div className="loader-inner">
+                    <div className="loader-line-wrap">
+                        <div className="loader-line"></div>
+                    </div>
+                    <div className="loader-line-wrap">
+                        <div className="loader-line"></div>
+                    </div>
+                    <div className="loader-line-wrap">
+                        <div className="loader-line"></div>
+                    </div>
+                    <div className="loader-line-wrap">
+                        <div className="loader-line"></div>
+                    </div>
+                    <div className="loader-line-wrap">
+                        <div className="loader-line"></div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
